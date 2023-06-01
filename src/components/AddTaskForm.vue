@@ -1,7 +1,7 @@
 <template>
         <form @submit.prevent>
-            <input type="text" v-model="task.title" class="input" placeholder="Название"/>
-            <input type="text" v-model="task.body" @input="bodyInput" class="input" placeholder="Описание"/>
+            <input type="text" v-model="task.title" class="input" placeholder="Title"/>
+            <input type="text" v-model="task.body" class="input" placeholder="Body"/>
             <button class="button" @click="addTask">
                 Add Task
             </button>
